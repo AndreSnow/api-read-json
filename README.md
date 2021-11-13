@@ -53,7 +53,7 @@ Esse projeto foi desenvolvido com o objetivo de ler tabelas Json de benefiarios 
 
 ---
 <h2 align="center">Colections</h2>
-Tambem disponibilizei as [Colections](aqui) para serem testadas as rotas no postman.
+Tambem disponibilizei as [Colections](https://github.com/AndreSnow/apiReadJson/blob/master/colections/laravel_json.postman_collection.json) para serem testadas as rotas no postman.
 
 <h2 align="center">Como Usar</h2>
 Aqui é possivel encontrar o passo a passo, desde configurações de ambiente até os passos da criação do projeto que foram seguidos.
