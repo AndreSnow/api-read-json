@@ -99,7 +99,7 @@ php artisan serve
 Também pode ser necessario
 ``` 
 php artisan migrate:fresh
-ṕhp artisan passport:install
+php artisan passport:install
 php artisan db:seed
 ``` 
 Lembrando que para os comando acima é necessario criar estar com o banco de dados configurado, as informações do mesmo se encontram no arquivo .env
