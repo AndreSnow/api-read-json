@@ -23,7 +23,11 @@ Esse projeto foi desenvolvido com o objetivo de ler tabelas Json de benefiarios 
 
 <h2 align="center">Preview</h2>
 
-![img]()
+<a href="https://ibb.co/Y8Ffws2">
+   <h2 align="center">
+      <img src="https://i.ibb.co/TRxPd3c/Whats-App-Image-2021-11-13-at-3-18-09-PM.jpg" alt="imagem preview" border="0">
+   </h2>
+</a>
 
 ---
 
@@ -51,14 +55,15 @@ Esse projeto foi desenvolvido com o objetivo de ler tabelas Json de benefiarios 
     <br>
    </p>
 
----
-<h2 align="center">Colections</h2>
-Tambem disponibilizei as [colections](https://github.com/AndreSnow/apiReadJson/blob/master/colections/laravel_json.postman_collection.json) para serem testadas as rotas no postman.
+   ---
+   <h2 align="center">Colections</h2>
 
-<h2 align="center">Como Usar</h2>
-Aqui é possivel encontrar o passo a passo, desde configurações de ambiente até os passos da criação do projeto que foram seguidos.
+   Tambem disponibilizei as [colections](https://github.com/AndreSnow/apiReadJson/tree/master/colections) para serem testadas as rotas no postman.
 
----
+   <h2 align="center">Como Usar</h2>
+   Aqui é possivel encontrar o passo a passo, desde configurações de ambiente até os passos da criação do projeto que foram seguidos.
+
+   ---
 
    Antes, certifique-se de ter instalado a versão mais recente do Laravel, PHP, Composer e Vue em sua maquina:
    - Para isso, abra seu terminal e digite:
@@ -91,6 +96,14 @@ composer install
 ``` 
 php artisan serve
 ``` 
+Também pode ser necessario
+``` 
+php artisan migrate:fresh
+ṕhp artisan passport:install
+php artisan db:seed
+``` 
+Lembrando que para os comando acima é necessario criar estar com o banco de dados configurado, as informações do mesmo se encontram no arquivo .env
+
 
 Para mais detalhes, consulte [guia](http://vuejs-templates.github.io/webpack/) and [documentação - vue-loader](http://vuejs.github.io/vue-loader).
 
@@ -114,7 +127,7 @@ npm run dev
 npm run build
 ``` 
 
-Para mais detalhes, consulte [guia](http://vuejs-templates.github.io/webpack/) and [documentação - vue-loader](http://vuejs.github.io/vue-loader).
+Para mais detalhes, consulte [guia](http://vuejs-templates.github.io/webpack/) e [documentação - vue-loader](http://vuejs.github.io/vue-loader).
 
 ---
 
