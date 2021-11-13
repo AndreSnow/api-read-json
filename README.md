@@ -105,7 +105,7 @@ php artisan db:seed
 Lembrando que para os comando acima é necessario criar estar com o banco de dados configurado, as informações do mesmo se encontram no arquivo .env
 
 
-Para mais detalhes, consulte [guia](http://vuejs-templates.github.io/webpack/) and [documentação - vue-loader](http://vuejs.github.io/vue-loader).
+Para mais detalhes, consulte [guia](http://vuejs-templates.github.io/webpack/) e [documentação - vue-loader](http://vuejs.github.io/vue-loader).
 
 ---
 
