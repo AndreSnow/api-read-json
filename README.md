@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com o objetivo de ler tabelas Json de benefiarios 
    
 - Leitura de Json
 - Exibição em tabela de propostas
-- Criação de uma nova tabela apenas acrescentando novos beneficiarios
+- Criação de uma nova tabela de propostas apenas acrescentando novos beneficiarios
   
    </p>
 
