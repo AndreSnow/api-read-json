@@ -1,20 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\UsersController;
 use App\Http\Controllers\ProposalsController;
-use App\Http\Controllers\ReadFilesController;
-
-/*
-|--------------------------------------------------------------------------
-| API Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
-|
-*/
+use App\Http\Controllers\UsersController;
 
 Route::prefix('users')->group(function () {
         Route::post('/login', [UsersController::class, 'login']);

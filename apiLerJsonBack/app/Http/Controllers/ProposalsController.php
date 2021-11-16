@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Traits\FileJson;
+use App\Http\Traits\FileJson;
 use Illuminate\Http\Request;
 
 class ProposalsController extends Controller
@@ -45,7 +45,7 @@ class ProposalsController extends Controller
             return $plan;
         } catch (\Throwable $th) {
             return response()
-                ->json(["errors" => [$th->getMessage()], "line" => [$th->getLine()]], 500);
+                ->json(['errors' => [$th->getMessage()], 'line' => [$th->getLine()]], 500);
         }
     }
 
@@ -55,7 +55,7 @@ class ProposalsController extends Controller
             return [$this->getData($name_file)];
         } catch (\Throwable $th) {
             return response()
-                ->json(["errors" => [$th->getMessage()]], $th->getCode());
+                ->json(['errors' => [$th->getMessage()]], $th->getCode());
         }
     }
 }

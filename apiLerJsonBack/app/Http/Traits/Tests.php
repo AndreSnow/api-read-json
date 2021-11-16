@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Traits;
+namespace App\Http\Traits;
 
 use Illuminate\Support\Facades\Auth;
 
@@ -22,7 +22,8 @@ trait Tests
     {
         $credentials = [
             'email' => 'andre@teste.com',
-            'password' => '12345678'];
+            'password' => '12345678'
+        ];
         if (Auth::attempt($credentials)) {
             $user = Auth::user();
             $user->token = $user->createToken($user->email)->accessToken;

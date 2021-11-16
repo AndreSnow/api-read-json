@@ -2,13 +2,12 @@
 
 namespace Tests\Feature;
 
-use App\Traits\Tests;
+use App\Http\Traits\Tests;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class FilesTest extends TestCase
 {
-
     use RefreshDatabase, Tests;
     protected $token;
 

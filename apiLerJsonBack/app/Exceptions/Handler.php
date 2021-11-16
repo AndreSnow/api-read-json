@@ -7,9 +7,7 @@ use Throwable;
 
 class Handler extends ExceptionHandler
 {
-    protected $dontReport = [
-        //
-    ];
+    protected $dontReport = [];
 
     protected $dontFlash = [
         'current_password',
@@ -19,8 +17,6 @@ class Handler extends ExceptionHandler
 
     public function register()
     {
-        $this->reportable(function (Throwable $e) {
-            //
-        });
+        $this->reportable(function (Throwable $e) {});
     }
 }
